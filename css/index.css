@@ -134,17 +134,13 @@ html,
 body {
   height: 100%;
 }
-header {
-  display: block;
-  min-height: 400px;
-  min-width: 10px;
-  background: #6b6b6b;
-  padding: 10px 10px;
-  border-radius: 1px;
-  box-shadow: 5px 55px 50px -20px #994646;
+header nav {
+  height: 350px;
+  width: auto;
+  background: gray;
 }
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.city-photo{
+  max-width:50%;
+  height:auto;
+  margin-left: 20%;
 }
