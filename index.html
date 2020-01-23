@@ -7,6 +7,7 @@
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -15,57 +16,47 @@
 
 <body>
  <header>
-   <nav>
-    <a href="">Home</a>
-    <a href="">About</a>
-    <a href="">Portfolio</a>
-    <a href="">Contact</a>
+   <nav class="nav-bar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
    </nav>
-   <figure>
-      <img class="city-photo" src="images/back-black-and-white-buildings-1435194.jpg">
-    </figure>
-  </header>
- <section class="Ad">
+ </header>
+ 
+<section class="intro">
   <div>
     <h1>John Wick</h1>
+      <p class="ptext">Provider of target completion.</p>
+      <p class="ptext">If interested or in need of my skill set please get in touch with me.</pclass="ptext">
     </div>
-    <div>
-      <p>Provider of target completion.</p>
-    </div>
-   <div><p>If interested or in need of my skill set please get in touch with me.</p>
-   </div>
-   <button>For Hire</button>
- </section>
- <article>
-   <h2>Little bit about me.</h2>
-   <div><p>I pride myself in functional fashion. My Mustang and my puppy are the two main loves in my life. When it comes to work I am real marksman and make sure all work is completed. Traveling and interacting with people is a passion of mine.</p>
-   </div>
- </article>
- <footer class="work-history">
-   <h3>Work History</h3>
-   <table>
-     <tr>
-       <th>Year</th>
-       <th>Company</th>
-       <th>Location</th> 
-     </tr>
-    <tr>
-     <td></td>
-     <td></td>
-     <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-       </tr>
-       <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-   </table>
+</section>
+ 
+<section class="skill">
+   <h2>Skill Set</h2>
+    <li>Proven well working with hands</li>
+    <li>Dead on the mark of all targets</li>
+    <li>Good with dogs</li>
+</section>
 
- </footer>
+<section class="work-his">
+  <h2>Work History</h2>
+   <ol>
+     <li>Cleaner for an Italian firm in New York</li>
+     <li>Fluent in Russian language and combat skills</li>
+     <li>Explosives worker in New York</li>
+   </ol>
+</section>
+
+<section class="contact">
+  <label for="email">Enter your email adress</label>
+  <input type="email" id="email" type="text" required>
+  <button type="submit">Submit</button>
+  <label for="phone-number">Enter phone number</label>
+  <input type="text" id="phone" required>
+  <button type="submit">Submit</button>
+</section>
+ 
+ 
 </body>
 </html>

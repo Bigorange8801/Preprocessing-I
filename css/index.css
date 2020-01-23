@@ -134,13 +134,10 @@ html,
 body {
   height: 100%;
 }
-header nav {
-  height: 350px;
-  width: auto;
-  background: gray;
+.nav-bar {
+  text-align: center;
+  padding: 90px 50px 80px;
+  word-spacing: 255px;
 }
-.city-photo{
-  max-width:50%;
-  height:auto;
-  margin-left: 20%;
-}
+/* color for font style for font*/
+/* intro skill work-his and contact */
